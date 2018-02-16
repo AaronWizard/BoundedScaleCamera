@@ -1,7 +1,7 @@
 extends Node
 
 func _ready():
-	pass
+	$icon/Camera2D.world_size = $background.texture.get_size()
 
 func _process(delta):
 	var move = Vector2()
